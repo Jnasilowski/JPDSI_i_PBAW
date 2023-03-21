@@ -44,9 +44,9 @@ if (empty( $messages )) {
 		$messages [] = 'Pierwsza wartość nie jest liczbą całkowitą!';
 	}
 	
-//	if (! is_double( $r )) {
-	//	$messages [] = 'Druga wartość nie jest liczbą zmiennoprzecinkową!';
-	//}
+	if (! is_numeric( $r )) {
+		$messages [] = 'Druga wartość nie jest liczbą zmiennoprzecinkową!';
+	}
 	if (! is_numeric( $k )) {
 		$messages [] = 'Trzecia wartość nie jest liczbą całkowitą!';
 	}	
