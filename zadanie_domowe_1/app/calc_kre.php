@@ -39,7 +39,7 @@ if ( $n == "") {
 //nie ma sensu walidować dalej gdy brak parametrów
 if (empty( $messages )) {
 	
-	// sprawdzenie, czy $x i $y są liczbami całkowitymi
+	
 	if (! is_numeric( $N )) {
 		$messages [] = 'Pierwsza wartość nie jest liczbą całkowitą!';
 	}
@@ -88,6 +88,5 @@ if (empty ( $messages )) { // gdy brak błędów
 }
 
 // 4. Wywołanie widoku z przekazaniem zmiennych
-// - zainicjowane zmienne ($messages,$x,$y,$operation,$result)
 //   będą dostępne w dołączonym skrypcie
-include 'calc_view.php';
+include 'calc_kre_view.php';

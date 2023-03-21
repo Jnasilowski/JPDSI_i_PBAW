@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 <head>
@@ -7,7 +6,7 @@
 </head>
 <body>
 
-<form action="<?php print(_APP_URL);?>/app/calc.php" method="post">
+<form action="<?php print(_APP_URL);?>/app/calc_kre.php" method="post">
 	<label for="id_N">Kwota udzielonego kredytu: </label>
 	<input id="id_N" type="text" name="N" value="" /><br />
 
