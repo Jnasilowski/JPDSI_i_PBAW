@@ -36,9 +36,13 @@ if (isset($messages)) {
 ?>
 
 <?php if (isset($result)){ ?>
+
 <div style="margin: 20px; padding: 10px; border-radius: 5px; background-color: rgb(230,30,120); width:300px;">
+
 <?php echo 'Wynik: '.$result; ?>
+
 </div>
+
 <?php } ?>
 
 </body>

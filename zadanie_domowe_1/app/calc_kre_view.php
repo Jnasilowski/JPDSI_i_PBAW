@@ -47,7 +47,7 @@ if (isset($messages)) {
 </div>
 <?php } ?>
 <?php if (isset($kk)){ ?>
-<div style="margin: 20px; padding: 10px; border-radius: 5px; background-color: rgb(230,129,30); width:300px;">
+<div style="margin: 20px; padding: 10px; border-radius: 5px; background-color: rgb(230,129,40); width:300px;">
 <?php echo 'Koszt kredytu: '.$kk.'zł'; ?>
 </div>
 <?php } ?>
