@@ -7,7 +7,7 @@ require_once dirname(__FILE__).'/../config.php';
 // Parametry do widoku przekazujemy przez zmienne.
 
 // 1. pobranie parametrów
-include _ROOT_PATH.'/app/security/check.php';
+
 function getParams(&$N,&$r,&$k,&$n){
 	$N = isset($_REQUEST['N']) ? $_REQUEST['N'] : null;
 	$r = isset($_REQUEST['r']) ? $_REQUEST['r'] : null;
